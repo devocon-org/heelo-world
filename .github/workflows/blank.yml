@@ -5,7 +5,8 @@ on: push
 job:
   hello:
     runs-on: ubuntu-latest
-      steps:
-        - name: Checkout Code
-          runs: echo"heelo, ken"
+    
+    steps:
+    - name: Checkout Code
+      runs: echo"hello, ken"
           
