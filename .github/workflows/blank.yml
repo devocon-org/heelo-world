@@ -1,0 +1,11 @@
+name: Helle_world action
+
+on: push
+
+job:
+  hello:
+    runs-on: ubuntu-latest
+      steps:
+        - name: Checkout Code
+          runs: echo"heelo, ken"
+          
