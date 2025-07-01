@@ -2,7 +2,7 @@ name: Helle_world action
 
 on: push
 
-job:
+jobs:
   hello:
     runs-on: ubuntu-latest
     
